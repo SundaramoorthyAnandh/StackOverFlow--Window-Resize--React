@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const GetWidthWindow = () => {
-  const [widthWindow, setWidthWindow] = useState(window.screen.width);
+  const [widthWindow, setWidthWindow] = useState(window.innerWidth);
 
   useEffect(() => {
     console.log('In useEffect');
